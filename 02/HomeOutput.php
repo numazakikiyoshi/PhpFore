@@ -1,4 +1,12 @@
 <?php
+
+/*<head>
+<meta charset="UTF-8">
+<title>入力ホーム</title>
+
+<link rel="stylesheet" href="HomeDesign.css">
+</head>*/
+
 echo $_GET['name1']." ".$_GET['name2']."さん　こんにちは"."<br />";
 
 echo "性別 ".$_GET['sex']."<br />";
