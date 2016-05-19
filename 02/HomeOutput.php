@@ -3,7 +3,7 @@ echo $_GET['name1']." ".$_GET['name2']."さん　こんにちは"."<br />";
 
 echo "性別 ".$_GET['sex']."<br />";
 
-echo "住所 ".$_GET['address']."さん　"."<br />";
+echo "住所 ".$_GET['address']."在住　"."<br />";
 
 echo "電話番号 ".$_GET['tel']."-".$_GET['tel2']."-".$_GET['tel3']."<br />";
 
@@ -16,5 +16,15 @@ if(isset( $_GET['where'] )){
     }
 }
 echo "デ知リマシタネ<br />";
+
+echo "質問カテゴリー ";
+if(isset( $_GET['category'] )){
+    foreach ( $_GET['category'] as $value) {
+        echo "「".$value."」<br />";
+    }
+}
+
+echo "質問内容 ".$_GET['question']."<br />";
+
 
 ?>
