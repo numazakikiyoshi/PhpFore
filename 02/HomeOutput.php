@@ -44,7 +44,7 @@ foreach ($_POST as  $value){
                 echo "「".$value."」<br />";
             }
         }
-        echo "質問内容 ".$_POST['question']."<br />";
+        echo "質問内容 ".$_POST['comment']."<br />";
     }else {
         echo"未入力の項目があるので、さっさともう一度入力しやがってください";
 
@@ -52,4 +52,5 @@ foreach ($_POST as  $value){
 
 
 ?>
+<p><a href="http://localhost/php/20160519/HomeInput.php" >入力画面に戻る</a><p>
 </from>
