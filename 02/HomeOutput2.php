@@ -12,15 +12,7 @@
 </h1>
 
 <?php $count =0; ?>
-<!--<?php foreach ($_POST as  $value){
-    if(empty($value)){
-        $count ++;
-    }
-} ?>
-<?php  if ($count > 0):?>
-<?= '未入力の項目があるので、さっさともう一度入力しやがってください' ?>
-<p><a href="http://localhost/php/20160519/HomeInput.php" >入力画面に戻る</a><p>
-<?php else: ?> -->
+
     <table class="type05">
       <tr><th>姓</th><td><?php  echo $_POST['name1']." ".$_POST['name2'] ?></td></tr>
       <tr><th>性別</th><td><?php  echo $_POST['sex'] ?></td></tr>
@@ -51,5 +43,4 @@
     </table>
 
     <p><a href="http://localhost/php/20160519/HomeInput.php" >もう一度入力する</a><p>
-<?php endif; ?>
 </form>
