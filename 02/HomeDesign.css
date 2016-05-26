@@ -1,32 +1,31 @@
-h1 {
-    background-color: #1E90FF;
-    color: #05FBFF;
-    font-size: 3.0em
+h1 {/*h1のデザイン*/
+    background-color: #1E90FF;/*背景*/
+    color: #05FBFF;/*字の色*/
+    font-size: 3.0em/*字の大きさ*/
 }
 
-body {
-    text-align: center;
-    background: linear-gradient(#05FBFF, #ffffff);
+body {/*全体*/
+    text-align: center;/*中央寄せ*/
+    background: linear-gradient(#05FBFF, #ffffff);/*左の色から右の色にグラデーション*/
 }
 
-table.type05 {
-	border-collapse: separate;
-    position: relative;
-	border-spacing: 1px;
-	text-align: left;
-	line-height: 1.5;
-	border-top: 1px solid #ccc;
-    margin-left: auto;
+table.type05 {/*tableのデザイン*/
+	border-collapse: separate;　/*隣接するセルのボーダーを空ける*/
+	border-spacing: 1px;/*セルの外枠の太さ*/
+	text-align: left;/*字を左寄せ*/
+	line-height: 1.5;/*高さ*/
+	border-top: 1px solid #ccc;/*最初の横棒*/
+    margin-left: auto;/*中央寄せ*/
     margin-right: auto;
 }
 table.type05 th {
-	width: 115px;
-	padding: 7px;
-	border-bottom: 1px solid #ccc;
-	background: #ADD8E6;
+	width: 115px;/*横幅*/
+	padding: 7px;/*セルの大きさ*/
+	border-bottom: 1px solid #ccc;/*横棒*/
+	background: #ADD8E6;/*背景*/
 }
 table.type05 td {
-	width: 350px;
-	padding: 10px;
-	border-bottom: 1px solid #ccc;
+	width: 350px;/*横幅*/
+	padding: 10px;/*高さ*/
+	border-bottom: 1px solid #ccc;/*横棒*/
 }

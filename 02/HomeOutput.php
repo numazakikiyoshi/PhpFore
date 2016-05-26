@@ -34,16 +34,16 @@
                                                         foreach ( $_POST['where'] as $value) {
                                                             switch ($value) {
                                                                 case '0':
-                                                                    echo "あっちの方だよ";
+                                                                    echo "あの辺<br >";
                                                                     break;
                                                                 case '1':
-                                                                    echo "そっちの方だよ";
+                                                                    echo "その辺<br >";
                                                                     break;
                                                                 case '2':
-                                                                    echo "この辺だよ";
+                                                                    echo "この辺<br >";
                                                                     break;
                                                                 case '3':
-                                                                    echo "その他だよ";
+                                                                    echo "その他<br >";
                                                                     break;
                                                             }
                                                         }
