@@ -1,5 +1,3 @@
-<form action="HomeOutput.php" method="POST">
-
 <head>
 <meta charset="UTF-8">
 <title>入力確認</title>
