@@ -12,23 +12,14 @@
 <table class="type05">
     <tr><th>氏名</th><td><?php  echo $_POST['name1']." ".$_POST['name2'] ?></td></tr>
     <tr><th>性別</th><td><?php
-                                switch ($_POST['sex']) {
-                                    case '0':
-                                        echo "男性";
-                                        break;
-                                    case '1':
-                                        echo "女性";
-                                        break;
-                                    case '2':
-                                        echo "どちらでもない";
-                                        break;
-                                }
+                                $gender = array(0=>"男",1=>"女",2=>"どちらでもない");
+                                echo $gender[$_POST['sex']];
     ?></td></tr>
     <tr><th>住所</th><td><?php  echo $_POST['address'] ?></td></tr>
     <tr><th>電話番号</th><td><?php  echo $_POST['tel']."-".$_POST['tel2']."-".$_POST['tel3'] ?></td></tr>
     <tr><th>メールアドレス</th><td><?php  echo $_POST['mail1']."@".$_POST['mail2'] ?></td></tr>
     <tr><th>どこで知ったか<br>（複数回答可）</th><td><?php
-                                                    if(isset($_POST['where'])){
+                                                if(isset($_POST['where'])){
                                                         foreach ( $_POST['where'] as $value) {
                                                             switch ($value) {
                                                                 case '0':
@@ -50,6 +41,7 @@
     <tr><th>質問カテゴリー</th><td><?php
                                         if(isset( $_POST['category'] )){
                                             foreach ( $_POST['category'] as $value) {
+
                                                 switch ($value) {
                                                     case '0':
                                                         echo "購入した商品について<br >";
