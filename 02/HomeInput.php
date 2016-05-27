@@ -11,17 +11,17 @@
 </h1>
 
 <table class="type05">
-  <tr><th>姓</th><td><input type="textbox" name="name1"size="10" required placeholder="池"></td></tr>
-  <tr><th>名</th><td><input type="textbox" name="name2"size="10" required placeholder="光宇宙"></td></tr>
+  <tr><th>姓</th><td><input type="textbox" name="name1"size="10" required placeholder="苗字"></td></tr>
+  <tr><th>名</th><td><input type="textbox" name="name2"size="10" required placeholder="名前"></td></tr>
   <tr><th>性別</th><td><input type="radio" name="sex" value="0"> 男性
                     　　<input type="radio" name="sex" value="1"> 女性
                     　　<input type="radio" name="sex" value="2" checked> どちらでもない</td></tr>
-  <tr><th>住所</th><td><input type="textbox" name="address"required placeholder="マサラタウン"></td></tr>
-  <tr><th>電話番号</th><td><input type="textbox" pattern="^[0-9]{2,4}" name="tel" size="4"　required placeholder="025">-
-                          <input type="textbox" pattern="^[0-9]{2,4}" name="tel2" size="4"　required placeholder="100">-
-                          <input type="textbox" pattern="^[0-9]{2,4}" name="tel3" size="4"　required placeholder="000"></td></tr>
-  <tr><th>メールアドレス</th><td><input type="textbox" name="mail1" size="20" required placeholder="MasterPoke">@
-                              <input type="textbox"  name="mail2" size="20" required placeholder="kanto.co"></td></tr>
+  <tr><th>住所</th><td><input type="textbox" name="address"required placeholder="どこか"></td></tr>
+  <tr><th>電話番号</th><td><input type="textbox" pattern="^[0-9]{2,4}" name="tel" size="4"　required placeholder="123">-
+                          <input type="textbox" pattern="^[0-9]{2,4}" name="tel2" size="4"　required placeholder="456">-
+                          <input type="textbox" pattern="^[0-9]{2,4}" name="tel3" size="4"　required placeholder="789"></td></tr>
+  <tr><th>メールアドレス</th><td><input type="textbox" name="mail1" size="20" required placeholder="mail">@
+                              <input type="textbox"  name="mail2" size="20" required placeholder="address"></td></tr>
   <tr><th>どこで知ったか<br>（複数回答可）</td><td><input type="checkbox" name="where[]" value="0">あの辺
                                             　<input type="checkbox" name="where[]" value="1">その辺<br>
                                              <input type="checkbox" name="where[]" value="2">この辺
@@ -32,7 +32,7 @@
                                <option value="2">採用について</option>
                                <option value="3">その他</option>
                                <option value="4">それ以外</option></select></td></tr>
-  <tr><th>質問内容</th><td><textarea name="comment" cols="50" rows="5" required placeholder="私の上司が敵の攻撃をよけろと無茶振りをしてきます。どうすればよろしいでしょうか??"></textarea></td></tr>
+  <tr><th>質問内容</th><td><textarea name="comment" cols="50" rows="5" required placeholder="??"></textarea></td></tr>
 </table>
 <input type="submit"　value="送信"><br>
 <input type="reset" value="リセット">
