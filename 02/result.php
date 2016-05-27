@@ -75,5 +75,5 @@
     <tr><th>質問内容</th><td><?php  echo $_POST['comment'] ?></td></tr>
 </table>
 
-    <p><a href="http://localhost/php/20160519/contact.php" >もう一度入力する</a><p>
+    <p><a href="contact.php" >もう一度入力する</a><p>
 </form>
